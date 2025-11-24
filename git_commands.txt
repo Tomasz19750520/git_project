@@ -1,0 +1,7 @@
+git log  - listuje zmiany
+git status - pokazuje status
+git add .  - dodaje wszystkie nowe i zmienione  pliki do stage'a
+git commit -m "opis zmiany"
+git restore --staged todo.txt  - anuluje ostatnie zmiany
+git checkout .  - przywroc stan ze stage'a 
+git reset --hard - sync folder z repozytorium
