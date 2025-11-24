@@ -10,3 +10,8 @@ git branch nowy_branch  - tworzy nowy branch
 git checkout nowy_branch  - przenosi nas do nowego brancha
 git switch nowy_branch - przenosi nas do nowego brancha
 git checkout -b nowy_branch  - tworzy i przenosi nas do utworzonego brancha 
+
+git log --oneline  - pokazuje wszystkie commity
+git reset --soft HEAD~1  - uncommituje ostatnia zmiane
+
+
