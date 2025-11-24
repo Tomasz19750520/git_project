@@ -5,3 +5,8 @@ git commit -m "opis zmiany"
 git restore --staged todo.txt  - anuluje ostatnie zmiany
 git checkout .  - przywroc stan ze stage'a 
 git reset --hard - sync folder z repozytorium
+
+git branch nowy_branch  - tworzy nowy branch
+git checkout nowy_branch  - przenosi nas do nowego brancha
+git switch nowy_branch - przenosi nas do nowego brancha
+git checkout -b nowy_branch  - tworzy i przenosi nas do utworzonego brancha 
