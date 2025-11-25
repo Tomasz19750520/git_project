@@ -17,3 +17,10 @@ git reset --soft HEAD~1  - uncommituje ostatnia zmiane
 git merge create-navigation ( scala branch z glownym main )
 
 git branch -d create-navigation	
+
+#GITHUB
+
+create .ssh folder
+create ssh keys
+ssh-keygen -t ed25519 -C "twisniewski2@gmail.com"
+
