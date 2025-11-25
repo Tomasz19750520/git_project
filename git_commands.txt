@@ -24,3 +24,21 @@ create .ssh folder
 create ssh keys
 ssh-keygen -t ed25519 -C "twisniewski2@gmail.com"
 
+touch config
+paste below to config file:
+
+HOST github.com
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_ed25519
+
+Create github account and login there
+
+go to settings and add .ssh "new SSH key"
+
+copy first .pub key to clipboard
+
+pbcopy < ~/.ssh/id_ed25519.pub
+
+paste to key
+save
