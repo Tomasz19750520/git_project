@@ -62,3 +62,13 @@ git remote add origin git@github.com:Tomasz19750520/git_project.git
 git branch -M main
 git push -u origin main  (-u skrot od --set-upstream)
 git push --set-upstream origin main
+
+git pull - uaktualnia loklny repo ze zmianami z githuba
+
+git stash - zapisuje wszystko do schowka [0] ostatnia amian (fifo first in first out)
+git stash list - listuje stasha
+git stash save "change index title"  zapisuje jako znany tytul zmiany
+git stash pop - wyciaga ze stasha i usuwa pozycje ze stasha
+git apply - wyciaga ze stasha i nie usuwa z listy ze stasha 
+git stash apply stash@{1} - applikuje zmiany z  pozycji 1 
+git stash drop stash@{0} - usuwa wskazana pozycje 0
