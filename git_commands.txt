@@ -60,4 +60,5 @@ git push -u origin main
 
 git remote add origin git@github.com:Tomasz19750520/git_project.git
 git branch -M main
-git push -u origin main
+git push -u origin main  (-u skrot od --set-upstream)
+git push --set-upstream origin main
