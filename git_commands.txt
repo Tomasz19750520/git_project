@@ -44,8 +44,7 @@ paste to key
 save
 
 Po stworzeniu repozytorium na github teraz musisz powiac je z lokalnym gitem
-
-…or create a new repository on the command line
+click ssh to have a proper below commands
 
 …or create a new repository on the command line
 
