@@ -20,60 +20,72 @@ git branch -d create-navigation
 
 #GITHUB
 
-create .ssh folder
-create ssh keys
-ssh-keygen -t ed25519 -C "twisniewski2@gmail.com"
+	create .ssh folder
+	create ssh keys
+	ssh-keygen -t ed25519 -C "twisniewski2@gmail.com"
 
-touch config
-paste below to config file:
+	touch config
+	paste below to config file:
 
-HOST github.com
-  AddKeysToAgent yes
-  UseKeychain yes
-  IdentityFile ~/.ssh/id_ed25519
+  	HOST github.com
+	  AddKeysToAgent yes
+	  UseKeychain yes
+	  IdentityFile ~/.ssh/id_ed25519
 
 Create github account and login there
 
-go to settings and add .ssh "new SSH key"
+	go to settings and add .ssh "new SSH key"
 
-copy first .pub key to clipboard
+	copy first .pub key to clipboard
 
-pbcopy < ~/.ssh/id_ed25519.pub
+	pbcopy < ~/.ssh/id_ed25519.pub
 
-paste to key
-save
+	paste to key
+	save
 
 Po stworzeniu repozytorium na github teraz musisz powiac je z lokalnym gitem
-click ssh to have a proper below commands
 
-…or create a new repository on the command line
+	click ssh to have a proper below commands
 
-echo "# git_project" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:Tomasz19750520/git_project.git
-git push -u origin main
+	…or create a new repository on the command line
+
+	echo "# git_project" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git branch -M main
+	git remote add origin git@github.com:Tomasz19750520/git_project.git
+	git push -u origin main
 
 …or push an existing repository from the command line
 
-git remote add origin git@github.com:Tomasz19750520/git_project.git
-git branch -M main
-git push -u origin main  (-u skrot od --set-upstream)
-git push --set-upstream origin main
+	git remote add origin git@github.com:Tomasz19750520/git_project.git
+	git branch -M main
+	git push -u origin main  (-u skrot od --set-upstream)
+	git push --set-upstream origin main
 
-git pull - uaktualnia loklny repo ze zmianami z githuba
+#GIT PULL
 
-git stash - zapisuje wszystko do schowka [0] ostatnia amian (fifo first in first out)
-git stash list - listuje stasha
-git stash save "change index title"  zapisuje jako znany tytul zmiany
-git stash pop - wyciaga ze stasha i usuwa pozycje ze stasha
-git stash apply - wyciaga ze stasha i nie usuwa z listy ze stasha 
-git stash apply stash@{1} - applikuje zmiany z  pozycji 1 
-git stash drop stash@{0} - usuwa wskazana pozycje 0
+	git pull - uaktualnia lokalny repo ze zmianami z githuba
 
-git commit --amend - zmienia nazwe ostatniego commita, mozna zmienic pliki , zrobic git add . i wtedy amend
-git commit --amend --no-edit - to co powyzej ale nie otwiera edytora do zmiany nazwy, tylko dodaje do ostatniego commita kolejne zmiany o ktorych zapomniano
+#GIT PUSH
+	git push - wypycha lokalne zmiany na Githuba
 
-git clone git@github.com:Tomasz19750520/git_project.git git_project_second - klonuje github origin-main na lokalny komputer do nowego folderu (nazwa repo z zakladki CODE)
+#GIT STASH
+	git stash - zapisuje wszystko do schowka [0] ostatnia amian (fifo first in first out)
+	git stash list - listuje stasha
+	git stash save "change index title"  zapisuje jako znany tytul zmiany
+	git stash pop - wyciaga ze stasha i usuwa pozycje ze stasha
+	git stash apply - wyciaga ze stasha i nie usuwa z listy ze stasha 
+	git stash apply stash@{1} - applikuje zmiany z  pozycji 1 
+	git stash drop stash@{0} - usuwa wskazana pozycje 0
+
+#GIT COMMIT AMEND
+
+	git commit --amend - zmienia nazwe ostatniego commita, mozna zmienic pliki , zrobic git add . i wtedy amend
+	git commit --amend --no-edit - to co powyzej ale nie otwiera edytora do zmiany nazwy, tylko dodaje do ostatniego commita kolejne zmiany o ktorych zapomniano
+
+#GIT CLONE
+
+	git clone git@github.com:Tomasz19750520/git_project.git git_project_second - klonuje github origin-main na lokalny komputer do nowego folderu (nazwa repo z zakladki CODE)
+
