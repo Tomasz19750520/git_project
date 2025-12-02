@@ -72,3 +72,6 @@ git stash pop - wyciaga ze stasha i usuwa pozycje ze stasha
 git apply - wyciaga ze stasha i nie usuwa z listy ze stasha 
 git stash apply stash@{1} - applikuje zmiany z  pozycji 1 
 git stash drop stash@{0} - usuwa wskazana pozycje 0
+
+git commit --amend - zmienia nazwe ostatniego commita, mozna zmienic pliki , zrobic git add . i wtedy amend
+git commit --amend --no-edit - to co powyzej ale nie otwiera edytora do zmiany nazwy, tylko dodaje do ostatniego commita kolejne zmiany o ktorych zapomniano
