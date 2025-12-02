@@ -76,4 +76,4 @@ git stash drop stash@{0} - usuwa wskazana pozycje 0
 git commit --amend - zmienia nazwe ostatniego commita, mozna zmienic pliki , zrobic git add . i wtedy amend
 git commit --amend --no-edit - to co powyzej ale nie otwiera edytora do zmiany nazwy, tylko dodaje do ostatniego commita kolejne zmiany o ktorych zapomniano
 
-git clone git@github.com:Tomasz19750520/git_project.git  - klonuje hithum origin-main na lokalny komputer (nazwa repo z zakladki CODE
+git clone git@github.com:Tomasz19750520/git_project.git git_project_second - klonuje github origin-main na lokalny komputer do nowego folderu (nazwa repo z zakladki CODE)
