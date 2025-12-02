@@ -67,9 +67,11 @@ Po stworzeniu repozytorium na github teraz musisz powiac je z lokalnym gitem
 #GIT BRANCH na github
 
 git checkout -b add-new-books - dodaje nowego brancha i przechodzi do niego
-git push --set-upstream origin ann-new-books - wypycha nowego brancha do gitgub . Teraz stwoz pull requesta na github , porownujac branche, add opis etc... i potem Merge pull request jesli chcesz zmergowac i dalej confirm merge
- 
+git push --set-upstream origin ann-new-books - wypycha nowego brancha do gitgub . Teraz stwoz pull requesta na github , porownujac branche, add opis etc... i potem Merge pull request jesli chcesz zmergowac i dalej confirm merge. Po zmergowaniu na github , lokalnie przejdz do main i run hit pull aby sciagnac zmiany. Jesli wykonales jakies zmiany na main , to mozesz dodac je do stage'a i dalej mozesz utworzyc nowy branch i pracowac na nim. zmian w main nie znikna
 
+Pull request opis : What changed?
+		    How to test it?
+		    What's missing?	
 
 
 #GIT PULL
