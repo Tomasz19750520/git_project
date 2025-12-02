@@ -69,7 +69,7 @@ git stash - zapisuje wszystko do schowka [0] ostatnia amian (fifo first in first
 git stash list - listuje stasha
 git stash save "change index title"  zapisuje jako znany tytul zmiany
 git stash pop - wyciaga ze stasha i usuwa pozycje ze stasha
-git apply - wyciaga ze stasha i nie usuwa z listy ze stasha 
+git stash apply - wyciaga ze stasha i nie usuwa z listy ze stasha 
 git stash apply stash@{1} - applikuje zmiany z  pozycji 1 
 git stash drop stash@{0} - usuwa wskazana pozycje 0
 
