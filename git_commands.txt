@@ -67,7 +67,8 @@ Po stworzeniu repozytorium na github teraz musisz powiac je z lokalnym gitem
 #GIT BRANCH na github
 
 git checkout -b add-new-books - dodaje nowego brancha i przechodzi do niego
-git push --set-upstream origin ann-new-books - wypycha nowego brancha do gitgub . Teraz stwoz pull requesta na github , porownujac branche, add opis etc... i potem Merge pull request jesli chcesz zmergowac
+git push --set-upstream origin ann-new-books - wypycha nowego brancha do gitgub . Teraz stwoz pull requesta na github , porownujac branche, add opis etc... i potem Merge pull request jesli chcesz zmergowac i dalej confirm merge
+ 
 
 
 
