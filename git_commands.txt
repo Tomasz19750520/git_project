@@ -16,7 +16,7 @@ git reset --soft HEAD~1  - uncommituje ostatnia zmiane
 
 git merge create-navigation ( scala branch z glownym main )
 
-git branch -d create-navigation	
+git branch -d create-navigation	- usuwa wskazanego brancha
 
 #GITHUB
 
