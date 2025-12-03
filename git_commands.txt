@@ -113,7 +113,7 @@ git commit -m "zmiana" na main (ups powinna byc na branchu "dodaj_strone"
  - git log --oneline -sprawdzamy gdzie jest nasz commit
  - teraz robimy reseta do poprzedniej zmiany ktora byla przed naszym blednym commitem
  - git reset --hard 4dfdff - cofamy sie do stanu przed naszym blednym commitem
- - success, blad naprawiony, mozemy zaczac od nowa
+ - success, blad naprawiony, zmiana zostala usunieta z main ale pozostala na branchu , tam gdzie miala byc 
 
 
 git log --online 
