@@ -102,6 +102,26 @@ Pull request opis : What changed?
 #GIT RESET
 
 git log --oneline
-git reset soft b65867 - przesuwa zmiany do commita b65876 i nie usuwa zmian tylko przenosi je do indexu
+git reset --soft b65867 - przesuwa zmiany do commita b65876 i nie usuwa zmian tylko przenosi je do indexu
+git reset --hard b65867 - przesuwa zmiany do commita b65876 i usuwa zmiany
+
+Przyklad na cofniecie commita ktory mialbyc na branchu a zostal zakomitowany na main
+
+git commit -m "zmiana" na main (ups powinna byc na branchu "dodaj_strone"
+ - z maina tworzymy teraz nowy branch "dodaj_strone" (on tez zawiera teraz tamta zmiane)
+ - przechodzimy na main (git checkout main)
+ - git log --oneline -sprawdzamy gdzie jest nasz commit
+ - teraz robimy reseta do poprzedniej zmiany ktora byla przed naszym blednym commitem
+ - git reset --hard 4dfdff - cofamy sie do stanu przed naszym blednym commitem
+ - success, blad naprawiony, mozemy zaczac od nowa
+
+
+git log --online 
+
+
+
+
+
+
 
 
