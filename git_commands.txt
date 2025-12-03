@@ -1,3 +1,5 @@
+Opis polecen stworzony z kursu z youtube - https://www.youtube.com/watch?v=M21vX-5oDYU
+
 git log  - listuje zmiany
 git status - pokazuje status
 git add .  - dodaje wszystkie nowe i zmienione  pliki do stage'a
