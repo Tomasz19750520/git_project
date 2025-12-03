@@ -99,3 +99,9 @@ Pull request opis : What changed?
 
 	git clone git@github.com:Tomasz19750520/git_project.git git_project_second - klonuje github origin-main na lokalny komputer do nowego folderu (nazwa repo z zakladki CODE)
 
+#GIT RESET
+
+git log --oneline
+git reset soft b65867 - przesuwa zmiany do commita b65876 i nie usuwa zmian tylko przenosi je do indexu
+
+
